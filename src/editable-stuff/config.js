@@ -12,25 +12,9 @@ const mainBody = {
   message: " Passionate about changing the world with technology. ",
   icons: [
     {
-      image: "fa-github",
-      url: "https://github.com/hashirshoaeb",
-    },
-    {
-      image: "fa-facebook",
-      url: "https://www.facebook.com/hashirshoaeb",
-    },
-    {
-      image: "fa-instagram",
-      url: "https://www.instagram.com/hashirshoaeb/",
-    },
-    {
       image: "fa-linkedin",
-      url: "https://www.linkedin.com/in/hashirshoaeb/",
-    },
-    {
-      image: "fa-twitter",
-      url: "https://www.twitter.com/hashirshoaeb/",
-    },
+      url: "https://www.linkedin.com/in/ronaldajohnson/",
+    }
   ],
 };
 
@@ -54,8 +38,8 @@ const about = {
   imageLink: require("../editable-stuff/hashirshoaeb.png"),
   imageSize: 375,
   message:
-    "My name is Hashir Shoaib. I’m a graduate of 2020 from National University of Sciences and Technology at Islamabad with a degree in Computer Engineering. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. In my free time I like working on open source projects.",
-  resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
+    "My name is Ronalda Johnson,",
+  resume: "https://docs.google.com/",
 };
 
 // PROJECTS SECTION
@@ -66,7 +50,7 @@ const about = {
 const repos = {
   show: true,
   heading: "Recent Projects",
-  gitHubUsername: "hashirshoaeb", //i.e."johnDoe12Gh"
+  gitHubUsername: "Ro0628", //i.e."johnDoe12Gh"
   reposLength: 4,
   specificRepos: [],
 };
@@ -132,18 +116,13 @@ const getInTouch = {
 
 const experiences = {
   show: false,
-  heading: "Experiences",
+  heading: "Professional Experience",
   data: [
     {
-      role: 'Software Engineer',// Here Add Company Name
-      companylogo: require('../assets/img/dell.png'),
-      date: 'June 2018 – Present',
-    },
-    {
-      role: 'Front-End Developer',
-      companylogo: require('../assets/img/boeing.png'),
-      date: 'May 2017 – May 2018',
-    },
+      role: 'Software Engineer, USAA', // Here Add Company Name
+      companylogo: require('../assets/img/usaa.png'), // Here Add Company Logo
+      date: 'September 2018 – Present',
+    }
   ]
 }
 
