@@ -6,10 +6,10 @@ const navBar = {
 // Main Body SECTION
 const mainBody = {
   gradientColors: "#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1",
-  firstName: "Hashir",
+  firstName: "Ronalda",
   middleName: "",
-  lastName: "Shoaib",
-  message: " Passionate about changing the world with technology. ",
+  lastName: "Johnson",
+  message: "Passionate about changing the world with technology. ",
   icons: [
     {
       image: "fa-linkedin",
@@ -35,11 +35,11 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  imageLink: require("../editable-stuff/hashirshoaeb.png"),
+  imageLink: require("../editable-stuff/ronalda.png"),
   imageSize: 375,
   message:
-    "My name is Ronalda Johnson,",
-  resume: "https://docs.google.com/",
+    "My name is Ronalda Johnson, aotivated professional with a Master’s degree in Data Science, a strong foundation in programming (Python, SQL, R), and analytical problem-solving. Experienced in designing systems and applying technical expertise to develop predictive models and deliver impactful solutions. My background in software development fosters adaptability and a strategic mindset, enabling me to contribute effectively to data-driven decision-making. Passionate about solving real-world challenges and driving meaningful outcomes through data.",
+  resume: "https://www.dropbox.com/scl/fi/4u6ftvjxsfbblgfywgwhx/Ronalda-Johnson-Resume-2025_CareerCatalyst.docx?rlkey=cyf0ecs9oovlys02fajd99jko&st=snzdl9fn&dl=0",
 };
 
 // PROJECTS SECTION
@@ -51,8 +51,8 @@ const repos = {
   show: true,
   heading: "Recent Projects",
   gitHubUsername: "Ro0628", //i.e."johnDoe12Gh"
-  reposLength: 4,
-  specificRepos: [],
+  reposLength: 0,
+  specificRepos: ["ai-loan-generator"],
 };
 
 // Leadership SECTION
@@ -63,12 +63,12 @@ const leadership = {
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae auctor eu augue ut lectus arcu bibendum at varius. Libero justo laoreet sit amet cursus sit amet. Imperdiet dui accumsan sit amet nulla facilisi morbi. At auctor urna nunc id. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Et magnis dis parturient montes nascetur ridiculus mus mauris. In nisl nisi scelerisque eu ultrices vitae auctor. Mattis nunc sed blandit libero volutpat sed cras ornare. Pulvinar neque laoreet suspendisse interdum consectetur libero.",
   images: [
     { 
-      img: require("../editable-stuff/hashirshoaeb.png"), 
+      img: require("../editable-stuff/ronalda.png"), 
       label: "First slide label", 
       paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
     },
     { 
-      img: require("../editable-stuff/hashirshoaeb.png"), 
+      img: require("../editable-stuff/ronalda.png"), 
       label: "Second slide label", 
       paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
     },
@@ -88,19 +88,20 @@ const skills = {
     { name: "SQL", value: 75 },
     { name: "Data Structures", value: 85 },
     { name: "C/C++", value: 65 },
-    { name: "JavaScript", value: 90 },
-    { name: "React", value: 65 },
+    { name: "JavaScript", value: 75 },
+    { name: "React", value: 50 },
     { name: "HTML/CSS", value: 55 },
+    { name: "Java", value: 75 },
     { name: "C#", value: 80 },
   ],
   softSkills: [
-    { name: "Goal-Oriented", value: 80 },
-    { name: "Collaboration", value: 90 },
-    { name: "Positivity", value: 75 },
-    { name: "Adaptability", value: 85 },
-    { name: "Problem Solving", value: 75 },
-    { name: "Empathy", value: 90 },
-    { name: "Organization", value: 70 },
+    { name: "Goal-Oriented", value: 90 },
+    { name: "Collaboration", value: 100 },
+    { name: "Positivity", value: 100 },
+    { name: "Adaptability", value: 90 },
+    { name: "Problem Solving", value: 90 },
+    { name: "Empathy", value: 100 },
+    { name: "Organization", value: 90 },
     { name: "Creativity", value: 90 },
   ],
 };
@@ -108,10 +109,10 @@ const skills = {
 // GET IN TOUCH SECTION
 const getInTouch = {
   show: true,
-  heading: "Get In Touch",
+  heading: "Contact Me",
   message:
-    "I'm currently looking for full-time Software Engineering or Machine Learning opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
-  email: "hashirshoaeb@gmail.com",
+    "Please feel free to email me if you have any questions or just want to say hi!",
+  email: "ronaldalajuan@gmail.com",
 };
 
 const experiences = {
@@ -121,7 +122,7 @@ const experiences = {
     {
       role: 'Software Engineer, USAA', // Here Add Company Name
       companylogo: require('../assets/img/usaa.png'), // Here Add Company Logo
-      date: 'September 2018 – Present',
+      date: 'Sep 2018 – Present',
     }
   ]
 }
