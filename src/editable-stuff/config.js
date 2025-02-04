@@ -84,15 +84,18 @@ const skills = {
   show: true,
   heading: "Skills",
   hardSkills: [
-    { name: "Python", value: 90 },
+    { name: "Python", value: 85 },
     { name: "SQL", value: 75 },
     { name: "Data Structures", value: 85 },
-    { name: "C/C++", value: 65 },
+    { name: "Go", value: 60 },
     { name: "JavaScript", value: 75 },
     { name: "React", value: 50 },
     { name: "HTML/CSS", value: 55 },
     { name: "Java", value: 75 },
     { name: "C#", value: 80 },
+    { name: "R", value: 70 },
+    { name: "AWS", value: 70 },
+    { name: "Google Cloud Platform" , value: 65 },
   ],
   softSkills: [
     { name: "Goal-Oriented", value: 90 },
@@ -103,6 +106,7 @@ const skills = {
     { name: "Empathy", value: 100 },
     { name: "Organization", value: 90 },
     { name: "Creativity", value: 90 },
+    { name: "Agile Methodology", value: 90 },
   ],
 };
 
