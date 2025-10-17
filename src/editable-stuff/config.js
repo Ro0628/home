@@ -38,8 +38,8 @@ const about = {
   imageLink: require("../editable-stuff/ronalda.png"),
   imageSize: 375,
   message:
-    "My name is Ronalda Johnson, an aspiring Data Scientist with a Master’s degree in Data Science and a strong foundation in Python, SQL, and R. Experienced in designing systems and developing predictive models through hands-on projects and coursework. My background in software development fosters adaptability and strategic thinking, enabling me to approach data-driven decision-making with a strong technical mindset. Continuously expanding my expertise through independent research, certifications, and practical applications. Passionate about leveraging data science to solve complex challenges and uncover actionable insights.",
-  resume: "https://www.dropbox.com/scl/fi/ejeurl934qu7cn3qnwkx2/Ronalda_Johnson.pdf?rlkey=d8p644dh8i9l3prkap6c24phr&st=emc96pl2&dl=0",
+    "Ronalda Johnson is a results-driven technology professional with expertise in Data Science, Machine Learning, and Software Engineering. She holds a Master’s in Data Science and a strong foundation in Python, SQL, and R. Experienced in building data-driven systems, predictive models, and automation workflows that connect technical insight to real-world outcomes. Passionate about continuous learning and leveraging data to drive innovation, efficiency, and impact across industries.",
+  resume: "https://www.dropbox.com/scl/fi/w74vp8xj98s9mthrbvo4d/Ronalda_Johnson.pdf?rlkey=dn3vor1k7zvh7ka159j3vjozq&st=stb5ondn&dl=0",
 };
 
 // PROJECTS SECTION
